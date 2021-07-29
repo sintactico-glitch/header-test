@@ -1,0 +1,40 @@
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+/* General utilities */
+.container{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+.header__links{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
