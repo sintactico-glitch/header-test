@@ -16,6 +16,10 @@ html{
     max-width: 1200px;
 }
 
+main{
+    padding: 2rem 0;
+}
+
 /* Header */
 header{
     background-color: #000;
